@@ -2,62 +2,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-<section id="contact" class="container content-section text-center">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-            <h2>Stalk me</h2>
-            <p>If I can be of assistance, please do not hesitate to contact me.</p>
-            <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
-            </p>
-            <ul class="list-inline banner-social-buttons">
-                {% for network in site.social %}
-                <li>
-                    <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
-                </li>
-            </ul>
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Stalk me</h2>
+                <p>If I can be of assistance, please do not hesitate to contact me.</p>
+                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    {% for network in site.social %}
+                    <li>
+                        <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
+        <section id="contact" class="container content-section text-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Stalk me</h2>
+                    <p>If I can be of assistance, please do not hesitate to contact me.</p>
+                    <p><a href="mailto:khushbuparakh@hotmail.com">khushbuparakh@hotmail.com</a>
+                    </p>
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://twitter.com/khushbuparakh" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
+                        </li>
+
+                        <li>
+                            <a href="http://facebook.com/khushbuparakh" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/khushbuparakh" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">github</span></a>
+                        </li>
+
+                        <li>
+                            <a href="https://linkedin.com/in/khushbuparakh" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">linkedin</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </section>
+    </section>
     {% endfor %}
-
-<section id="contact" class="container content-section text-center">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-            <h2>Stalk me</h2>
-            <p>If I can be of assistance, please do not hesitate to contact me.</p>
-            <p><a href="mailto:khushbuparakh@hotmail.com">khushbuparakh@hotmail.com</a>
-            </p>
-            <ul class="list-inline banner-social-buttons">
-
-                <li>
-                    <a href="https://twitter.com/khushbuparakh" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
-                </li>
-
-                <li>
-                    <a href="http://facebook.com/khushbuparakh" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
-                </li>
-
-                <li>
-                    <a href="http://stackoverflow.com/questions/tagged/jekyll" class="btn btn-default btn-lg"><i class="fa fa-stack-overflow fa-fw"></i> <span class="network-name">stack-overflow</span></a>
-                </li>
-
-                <li>
-                    <a href="http://bitbucket.org/jekyll" class="btn btn-default btn-lg"><i class="fa fa-bitbucket fa-fw"></i> <span class="network-name">bitbucket</span></a>
-                </li>
-
-                <li>
-                    <a href="https://github.com/khushbuparakh" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">github</span></a>
-                </li>
-
-                <li>
-                    <a href="https://linkedin.com/in/khushbuparakh" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">linkedin</span></a>
-                </li>
-            </ul>
-            </div>
-            </div>
-            {% endfor %}
-        
-
-</section>
-</section>
 </head>
 </html>
