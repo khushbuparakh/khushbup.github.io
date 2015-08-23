@@ -64,10 +64,8 @@ a:focus {
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-<<<<<<< HEAD
-=======
+
     text-transform: uppercase;
->>>>>>> d1772e6e93ced81d25a25534229c21d94a7a99b2
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: {{ site.color.primary-dark }};
 }
@@ -92,13 +90,12 @@ a:focus {
 }
 
 .navbar-custom a {
-<<<<<<< HEAD
+
     color:#fff;
     font-style: italic;
     font-weight: 100;
-=======
+
     color: #fff;
->>>>>>> d1772e6e93ced81d25a25534229c21d94a7a99b2
 }
 
 .navbar-custom .nav li.active {
