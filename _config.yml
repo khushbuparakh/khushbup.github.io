@@ -1,0 +1,30 @@
+# Site settings
+title: khushbu 
+email: khushbuparakh@hotmail.com
+url: khushbuparakh.github.io
+description: "It's khushbu parakh portfolio"
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: khushbuparakh
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/khushbuparakh
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/khushbu_parakh
+  - title: github
+    url: https://github.com/khushbuparakh
+  - title: linkedin
+    url: https://linkedin.com/in/khushbuparakh
+# Build settings
+markdown: kramdown
+permalink: pretty
